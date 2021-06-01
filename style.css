@@ -1,18 +1,39 @@
 body {
     margin: 0 auto;
 
-    background: #FFEB85;
+    background: #FFE047;
+
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 header {
     height: 110px;
 
-    background: #CC0000;
+    background: #FF3333;
 }
 
+/* _____________________ MAIN _____________________*/
+
+.book-pic {
+    width: 325px;
+    height: 440px;
+}
+
+.compil_ul {
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+/*_____________________ END MAIN _____________________*/
+
 footer {
-    height: 100px;
+    height: 60px;
     text-align: center;
 
-    background: #CC0000;
+    background: #FF3333;
 }
