@@ -1,22 +1,76 @@
 body {
     margin: 0 auto;
 
-    background: #FFE047;
+    background: #FFE770;
 
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-header {
-    height: 110px;
+/*_____________________ HEADER _____________________*/
 
-    background: #FF3333;
+header {
+    height: 100px;
+
+    background: #FF4747;
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    position: relative;
+    left: 20px;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+
+    width: 500px;
+
+    padding-top: 25px;
+
+    color: white;
+}
+
+.dark_theme-button {
+    width: 100px;
+    height: 50px;
+
+    position: relative;
+    right: 20px;
+
+    margin-top: 25px;
+
+    border-style: none;
+
+    border-radius: 4px;
+}
+
+.dark_theme-button:hover {
+    background: #F50000;
 }
 
 /* _____________________ MAIN _____________________*/
 
+.main-heading, .second-heading {
+    text-align: center;
+}
+
+.compil-heading {
+    margin-left: 50px;
+}
+
+.short-desc {
+    margin-left: 30px;
+}
+
 .book-pic {
-    width: 325px;
-    height: 440px;
+    width: 225px;
+    height: 340px;
 }
 
 .compil_ul {
@@ -29,11 +83,11 @@ li {
     list-style: none;
 }
 
-/*_____________________ END MAIN _____________________*/
+/*_____________________ FOOTER _____________________*/
 
 footer {
     height: 60px;
     text-align: center;
 
-    background: #FF3333;
+    background: #FF4747;
 }
